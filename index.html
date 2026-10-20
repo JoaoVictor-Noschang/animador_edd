@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Animador de laços e matrizes em C</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Animador de laços e matrizes em C</h1>
+    <p class="sub">Selecione um exemplo abaixo e avance passo a passo: veja a linha em execução, o
+      valor de cada variável, o vetor ou a matriz sendo preenchido e o teste de mesa se montando.</p>
+    <div class="cols">
+      <div>
+        <section class="card">
+          <label>Exemplo <select id="ex"></select></label>
+          <ol id="code"></ol>
+          <label id="inplbl">Entradas: valores do scanf separados por espaço, ou o texto lido pelo fgets <input id="inp"
+              placeholder="ex.: 4 9 -3 6 2"></label>
+          <div id="err" class="err" role="alert" hidden></div>
+        </section>
+        <section class="card">
+          <h2>Saída do programa</h2>
+          <pre id="out"></pre>
+        </section>
+      </div>
+      <div>
+        <section class="card" id="ctl">
+          <div id="cmp" hidden></div>
+          <div id="msg" aria-live="polite"></div>
+          <div class="row"><button id="rs">⏮ Início</button><button id="pv">‹ Anterior</button><button id="pl"
+              class="pri">▶ Reproduzir</button><button id="nx">Próximo ›</button><span id="cnt"></span></div>
+          <label style="margin:8px 0 0">Velocidade <input id="sp" type="range" min="1" max="10" value="5"></label>
+        </section>
+        <section class="card">
+          <h2>Memória</h2>
+          <div id="mem"><span class="note">Nenhuma variável declarada ainda.</span></div>
+        </section>
+        <section class="card">
+          <h2>Teste de mesa</h2>
+          <div class="tw">
+            <table id="tr"></table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="examples.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
