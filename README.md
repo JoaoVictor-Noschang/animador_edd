@@ -15,7 +15,7 @@ O projeto permite selecionar exemplos práticos e acompanhar a execução passo 
 
 Não é necessário instalar nada nem rodar servidores ou dependências (Node/npm):
 
-1. Dê um duplo clique no arquivo **`index.html`** (ou abra-o em qualquer navegador como Chrome, Edge ou Firefox).
+1. Dê um duplo clique no arquivo **`index.html`** ou acesse o link **`https://joaovictor-noschang.github.io/animador_edd/`**
 2. No topo da página, escolha um dos exemplos pré-definidos no menu suspenso (**Exemplo**).
 3. Utilize os botões de controle:
    - **`▶ Reproduzir` / `⏸ Pausar`**: inicia ou pausa a execução automática do código.
